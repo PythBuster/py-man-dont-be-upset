@@ -11,6 +11,10 @@ pyside6 = "^6.7.2"
 qasync = "^0.27.1"
 
 
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+isort = "^5.13.2"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
